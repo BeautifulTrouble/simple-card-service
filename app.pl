@@ -6,6 +6,7 @@ use Data::Dumper;
 my $ua = Mojo::UserAgent->new;
 
 plugin 'CORS';
+my $config = plugin 'JSONConfig';
 
 helper parse_meta => sub {
     my $c   = shift;
