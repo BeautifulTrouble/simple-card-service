@@ -5,6 +5,8 @@ use Data::Dumper;
 
 my $ua = Mojo::UserAgent->new;
 
+plugin 'CORS';
+
 helper parse_meta => sub {
     my $c   = shift;
     my $url = shift;
