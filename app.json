@@ -1,0 +1,7 @@
+{
+    "hypnotoad"       : {
+      "listen"        : [ "http://*:9000" ],
+      "workers"       : "2",
+      "proxy"         : "1"
+    }
+}
